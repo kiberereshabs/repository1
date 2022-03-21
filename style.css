@@ -427,7 +427,10 @@ footer {
     flex-direction: row;
     box-sizing: border-box;
     align-items: center;
-    padding: 30px 50px;
+    padding: 15px 50px;
+  }
+  .navbar img {
+    width: 18%;
   }
 
   .right-nav {
@@ -593,7 +596,7 @@ footer {
     display: inline-grid;
     grid-template-columns: 300px 300px 300px;
     grid-column-gap: 40px;
-    grid-template-rows: 160px;
+    grid-template-rows: 190px;
     color: hsl(0, 0%, 100%);
     font-weight: 200;
     margin-bottom: 150px;
