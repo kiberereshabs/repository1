@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: linear-gradient(hsl(218, 28%, 15%), hsl(217, 28%, 13%));
+  background-color: lightskyblue;
   font-size: 14px;
   margin: 0;
 }
@@ -26,7 +26,7 @@ body {
   margin-left: auto;
 }
 .right-nav a {
-  color: white;
+  color: darkred;
   list-style-type: none;
   text-decoration: none;
   padding: 0px 5px;
@@ -35,7 +35,9 @@ body {
 
 .right-nav a:hover {
   font-weight: 700;
+  color: darkred;
   text-decoration: underline;
+  background-color: transparent;
 }
 
 .content {
@@ -325,7 +327,7 @@ h6 {
 }
 
 footer {
-  background-color: hsl(217, 28%, 13%);
+  background-color:lightskyblue; 
   margin-top: 25px;
   box-sizing: border-box;
   display: flex;
@@ -387,11 +389,13 @@ footer {
 .info li {
   list-style-type: none;
   cursor: pointer;
-  color: hsl(0, 0%, 100%);
+  color: darkred;
 }
 
 .info li:hover {
   font-weight: 400;
+  color: lightskyblue;
+  
 }
 
 .social {
